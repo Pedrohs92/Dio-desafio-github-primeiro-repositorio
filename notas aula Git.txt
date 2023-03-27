@@ -1,0 +1,101 @@
+CLI: Comand Line Interface
+GUI: Grafic User Interface
+
+Git é seguro porque foi projetado, por causa da estrutura distribuída
+
+mudar pastas: cd
+Listas pastas: dir
+Criar pastas: mkdir
+Deletar pastas/diretório del
+Deletar arquivos: rmdir "nome pasta" /S /Q
+voltar pasta anterior: cd..
+autopreenchimento: TAB
+Limpar tela no git: ctrl+L
+mostrar arquivos ocultos: ls -a
+mover arquivos: mv "nome.ext" ./destino
+
+Sha1: criptografa os arquivos de 40 dígitos
+abrir o git bash e digitar: openssl sha1 texto.txt
+Se o nome do arquivo tiver espaço colocar "notas\ aula\ Git.txt"
+
+Objetos internos do git
+Blobs: contém dados do arquivo como caracteres identificadores tamanho, título etc
+Trees: aponta p vários Blobs ou outras Trees e armazena nome do arquivo
+Commits: Aponta para tree, parente e autor, armazena hora e data
+
+Chaves SSH: estabelece uma conexão segura e enciptada
+COMO CRIAR PAR DE CHAVE SSH
+Criar uma conta no github.com> profile>settings>SSH and GPG Keys> New SSH Key
+Abrir o git bash e digitar: ssh-keygen -t ed25519 -C "pedroo.h.s@hotmail.com"
+após isso criar uma senha
+Quando for criado a senha, o git mostrará o caminho de onde está a chave
+ir até o caminho e mostrar o conteúdo da chave publica (.pub) com o comando cat "id_nomedachave".pub
+copiar o conteúdo e colar no site dao github, campo "Key" e clicar em Add SSH Key
+COMO INICIALIZAR A CHAVE
+ir no github e digitar: eval $(ssh-agent -s)
+se estiver dentro da pasta .ssh apenas digitar ssh-add "id_ed25519"
+após isso digitar a senha
+caaminho C:\Users\Cecília\.ssh
+
+Tokens:
+
+
+configuação inicial
+git config --global user.email "pedroo.h.s@hotmail.com"
+git config --global user.name pedrohs92
+
+Comandos git
+
+git init: iniciar git
+git add: mover arquivos
+git commit: objetos do git que dão significado as alterações, carregam msg de txt junto com outros metadados como autor, hora
+GITHUB
+verificar configurações
+git config --list
+alterar configurações
+git --global --unset user.email
+após isso digitar um novo email
+git --global user.email "email@email.com"
+Setar o repositório criado no git.com: git remote add origin https://github.com/Pedrohs92/Livro-receitas.git
+Subir o arquivo no repositorio: git push origin master
+Clonar um arquivo: git clone "url copiada do github"
+
+
+markdown forma humanizada de usar o html ex: h1 no html para o tamanho da fonte grande, no markdown é apenas uma #, negrito utiliza apenas o *, itálico apenas o _, emoji é meio q autopreenchido, :chicken: aparece o frango 
+
+utilizar programa typora 
+coloquei uma receita de strogonoff qualquer, salvei
+voltei no git e dei um commit com os comandos
+
+Ciclo de vida dos arquivos no git
+Tracked: rastreável, git tem a ciencia deles (unmodified, modified staged(se preparando para fazer outro agrupamento))
+Untracked: não rastreável, git não tem a ciencia deles, só terá ciencia quando der o commit
+
+1 untracked: criar um arquivo e ainda não deu commit
+2 staged: modificar esse arquivo e der um git add
+3 unmodified: dei um commit nos arquivos em staged
+
+ambiente de dev: 
+working directory criei um arquivo 
+staging area: dei um git add (coloca na fila para commit)
+local repository: dei um commit -m "mensagem"
+
+
+GITHUB
+verificar configurações
+git config --list
+alterar configurações
+git --global --unset user.email
+após isso digitar um novo email
+git --global user.email "email@email.com"
+
+servidor
+
+Como subir as alterações para o git hub:
+entrar no site github.com
+clicar no perfil
+seu repositorios
+novo, inserir nome e descrição
+copiar url
+ir no gitbash git remote add origin https://github.com/Pedrohs92/Livro-receitas.git
+git push origin master
