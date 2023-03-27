@@ -1,0 +1,49 @@
+ISO 9000= qualidade
+qualidade avaliada fatores (alto nível) e critérios(baixo nível)
+requisitos: base para medir qualidade
+visão transcendental: bate o olho e ve que é bom
+visão do usuário: ajustar de acordo com o usuário
+visão de manufatura: conforme os requerimentos
+visão do produto: 
+visão baseado em valor: custo benefício do produto
+
+iso ieee e iec, instituições de padronização
+família iso 9000 relacionado a qualidade
+família square iso 25010 relacionado a qualidade mais atualizado
+
+teste é apenas uma etapa da qualidade
+
+qualidade interna: 
+métrica interna: avalia a qualidade antes do produto se tornar executável
+
+qualidade externa: características do pov externo
+métrica externa: avalia o comportamento do produto através de testes, software em operação e obs(homologação)
+
+qualidade em uso: visão do pow do usupario, ambiente e contexto específicos
+metrícas de qualidade em uso: mede o quanto o produto atende as necessidades do cliente
+
+gerenciamento de qualidade: 
+Planejamento: determina padrões, metas específicas, calcula o esforço e organiza atividades
+Garantia: atividades que definem e avaliam a qualidade 
+Controle: examina se os padrões estão acordados 
+Melhoria de processos: Melhoria na eficiência, efetividade
+
+Validação: O produto correto está sendo construído
+Verificação: Garantir que o produto está sendo construído corretamente
+
+Análise estática: avaliação da documentação e código fonte
+Análise dinâmica: técnicas com o código
+
+defeito é uma anomalia encontrada no produto
+
+erro: ação humana
+defeito:imperfeição
+falha: sistema não executa uma fnçãp
+
+ciclo de vida do bug: nova, designado, aberto, corrigido, pendente reteste, resteste, corrigido,reaberto, fechado, duplicado,
+rejeitado,não é um bug
+
+processo de teste:
+níveis de teste: teste de componentes, integração, sistema e aceite
+tipos de teste: funcional e não funcional
+técnicas de teste: caixa preta, branca e por experiencia
