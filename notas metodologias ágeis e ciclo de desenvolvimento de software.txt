@@ -1,0 +1,53 @@
+Desenvolvimento de software: desenvolvimento iterativo na qual a ferramenta em evolução serve como meio de comunicação
+Processo de software são metodologias para atividade, ações e tarefas para desenvolver um software
+linear: cada estágio começa depois que a anterior finalizar
+iterativo: processo linear cada estágio tem uma iteração entre as etapas
+evolucionário: cada etapa vai evoluindo o projeto
+paralelo: atividades ocorre de forma paralela e talvez não sequencial
+
+Modelo prescritivo ou tradicional: ordem e consistência do processo
+Modelo cascata: comunicação, planejamento, modelagem, construção e entrega. Linear, a proxima etapa começa só depois que a anterior finaliza, útil para requisitos definidaos e estáveis
+Desvantagem: não lida com adaptação, longo tempo para a primeira versão, estado de bloqueio para equipe
+Modelo V: Focado em testes
+
+Modelo Incremental: fluxo cascata com pequenas versões do softwares entregues, requisitos bem definidos mas não refinados
+
+Modelo evolucionário - Prototipação: bom para refinar requisitos, valida eficiência e interação com o usuário, pode evoluir ou ser descartável
+Desvantagem: deixa de considerar a qualidade em prol da entrega rápida
+Modelo evolucionário - Espiral: estratégia cíclica incremental com foco em diminuir riscos
+
+Modelo Concorrente: 
+
+Modelos especializados: necessita de métodos específicos de acordo com o contexto ex: métodos formais, orientado a aspectos
+
+Processo unificado: combinas características de outros processos
+1 concepção: comunicação e planejamento
+2 elaboração planejamento e modelagem
+3 construção construção
+4 transição: construção e entrega
+
+Manifesto ágil:
+12 principios: satisfazer cliente, mudanças são bem vindas, entrega frequente, trabalho em conjunto, indivíduos motivados,etc
+
+ágil é cultura
+auxilia na diminuição de custos
+imprevisibilidade é a palavra chave
+
+extreme programming
+projeto: kiss mantenha o simples
+codificação: TDD, programação em pares
+
+focado a orientaçã a objetos, envolve regras constantes durante o processo
+voltado mais para o desenvolvimento de software
+não tem sprints é definido por semanas
+possibilidade e escrita e novas histórias
+
+valores: simplicidade, coragem, comunicação, respeito e feedback
+
+Scrum:
+pilares transparencia, adaptação e inspeção
+valores coragem, foco, respeito, comprometimento, abertura 
+
+Modelos ágeis: 
+DSDM foca na construção em prazo curto 80/20 resultado vem de 20 da ação
+iterativo e incremental
