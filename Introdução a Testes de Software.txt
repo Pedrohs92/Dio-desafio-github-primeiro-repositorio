@@ -1,0 +1,5 @@
+Definição de Testes:
+modelo cascata:
+Especificação, Projeto do software, implementação, testes e implantação
+Modelo Ágil: Iteratividade, vai e volta em várias fases do projeto
+Niveis: Unidade, Integração, Sistema, Regressão e Aceitação
